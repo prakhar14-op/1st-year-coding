@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffebf0;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ff1493;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #ff1493;
+    color: white;
+    animation: pulse 1.5s infinite;
+}
+
+#noBtn {
+    background-color: #ff4d4d;
+    color: white;
+    position: absolute;
+}
+
+#response {
+    font-size: 1.5em;
+    color: #ff1493;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Heart Animation */
+@keyframes floatHearts {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-100vh); opacity: 0; }
+}
+
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 30px;
+    animation: floatHearts 4s linear infinite;
+}
+
+/* Yes Button Pulse */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Fade In Effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

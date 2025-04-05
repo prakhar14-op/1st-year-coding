@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../DSA"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "prakhar c++"
+	}
+}
