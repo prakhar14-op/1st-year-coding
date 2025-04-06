@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../DSA"
+		},
+		{
+			"path": "../pandas and ml"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "prakhar c++"
+	}
+}

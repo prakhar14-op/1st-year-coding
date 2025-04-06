@@ -1,0 +1,129 @@
+/* 
+#countlabel{
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    font-size: 10em;
+    background:linear-gradient(rgb(47, 47, 193),rgb(35, 99, 155),rgb(80, 117, 211),rgb(0, 153, 255));
+    width: 200px;
+    border-radius: 50px;
+}
+#buttoncontainer{
+   text-align: center;
+   
+}
+.buttons{
+    font-size: 1.5em;
+    color: burlywood;
+    background-color: rgb(214, 120, 120);
+    transition: ease-in;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttons:hover{
+    
+    transition: ease-in-out;
+    background-color: brown;
+    transition-delay: 0.25s;
+      
+} */
+
+/* random number generator */
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: bisque; 
+}
+#mybutton{
+    font-size: 3em;
+    padding: 5px;
+    border-radius: 5px;
+    height: 70px;
+    width: 150px;
+}
+.mylabel{
+    font-size: 3em;
+} */
+
+/* conditional statments */
+ /* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: bisque; 
+}
+#submit{
+    height: 30px;
+    width: 60px;
+} */
+
+/* .CHECKED */
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(orange,bisque) ;
+    filter: blur(50);
+    font-size: 2em;
+    height: 700px;
+} */
+
+/*                          TEMRATURE CONVERSION */
+/* body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background:linear-gradient(orange,bisque) ;
+        filter: blur(50);
+        font-size: 2em;
+        height: 700px;
+        text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#tempinput{
+    text-align: center;
+  
+}
+button{
+    background-color: brown;
+    color: yellow;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(135, 24, 24);
+    transform: scale(1.1);
+   
+} */
+
+/*                                          DICE ROLLING PROGRAM */
+#container{
+    text-align: center;
+    background: linear-gradient(rgba(196, 57, 134, 0.73),pink);
+    font-weight: bold;
+    height: 500px;
+}
+button{
+    background-color: blanchedalmond;
+    padding: 10px 15px;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(243, 255, 205);
+    
+}
+button:active{
+    background-color: rgb(255, 211, 205);
+}
+input{
+    width: 250px;
+    font-weight: bold;
+    text-align: center ;
+    font-size: 2rem;
+}
+

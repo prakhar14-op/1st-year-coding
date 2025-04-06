@@ -1,0 +1,201 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --body-text-inter-12-medium-font-family: "Inter", Helvetica;
+  --body-text-inter-12-medium-font-size: 12px;
+  --body-text-inter-12-medium-font-style: normal;
+  --body-text-inter-12-medium-font-weight: 500;
+  --body-text-inter-12-medium-letter-spacing: 0px;
+  --body-text-inter-12-medium-line-height: 16px;
+  --body-text-inter-12-regular-font-family: "Inter", Helvetica;
+  --body-text-inter-12-regular-font-size: 12px;
+  --body-text-inter-12-regular-font-style: normal;
+  --body-text-inter-12-regular-font-weight: 400;
+  --body-text-inter-12-regular-letter-spacing: 0px;
+  --body-text-inter-12-regular-line-height: 16px;
+  --body-text-inter-14-medium-font-family: "Inter", Helvetica;
+  --body-text-inter-14-medium-font-size: 14px;
+  --body-text-inter-14-medium-font-style: normal;
+  --body-text-inter-14-medium-font-weight: 500;
+  --body-text-inter-14-medium-letter-spacing: 0px;
+  --body-text-inter-14-medium-line-height: 20px;
+  --body-text-inter-14-regular-font-family: "Inter", Helvetica;
+  --body-text-inter-14-regular-font-size: 14px;
+  --body-text-inter-14-regular-font-style: normal;
+  --body-text-inter-14-regular-font-weight: 400;
+  --body-text-inter-14-regular-letter-spacing: 0px;
+  --body-text-inter-14-regular-line-height: 20px;
+  --body-text-inter-16-medium-font-family: "Inter", Helvetica;
+  --body-text-inter-16-medium-font-size: 16px;
+  --body-text-inter-16-medium-font-style: normal;
+  --body-text-inter-16-medium-font-weight: 500;
+  --body-text-inter-16-medium-letter-spacing: 0px;
+  --body-text-inter-16-medium-line-height: 24px;
+  --body-text-inter-16-regular-font-family: "Inter", Helvetica;
+  --body-text-inter-16-regular-font-size: 16px;
+  --body-text-inter-16-regular-font-style: normal;
+  --body-text-inter-16-regular-font-weight: 400;
+  --body-text-inter-16-regular-letter-spacing: 0px;
+  --body-text-inter-16-regular-line-height: 24px;
+  --danger-border: rgba(248, 193, 192, 1);
+  --danger-focus: rgba(248, 193, 192, 1);
+  --danger-hover: rgba(156, 47, 45, 1);
+  --danger-main: rgba(234, 70, 67, 1);
+  --danger-pressed: rgba(117, 35, 33, 1);
+  --dangersecondary: rgba(251, 239, 238, 1);
+  --gray-100: rgba(236, 236, 236, 1);
+  --gray-200: rgba(216, 216, 216, 1);
+  --gray-210: rgba(255, 255, 255, 1);
+  --gray-2100: rgba(10, 10, 10, 1);
+  --gray-220: rgba(245, 245, 245, 1);
+  --gray-230: rgba(237, 237, 237, 1);
+  --gray-240: rgba(224, 224, 224, 1);
+  --gray-250: rgba(194, 194, 194, 1);
+  --gray-260: rgba(158, 158, 158, 1);
+  --gray-270: rgba(117, 117, 117, 1);
+  --gray-280: rgba(97, 97, 97, 1);
+  --gray-290: rgba(66, 66, 66, 1);
+  --gray-300: rgba(197, 197, 197, 1);
+  --gray-400: rgba(177, 177, 177, 1);
+  --gray-500: rgba(158, 158, 158, 1);
+  --gray-600: rgba(126, 126, 126, 1);
+  --gray-700: rgba(95, 95, 95, 1);
+  --gray-800: rgba(63, 63, 63, 1);
+  --gray-900: rgba(32, 32, 32, 1);
+  --heading-inter-20-medium-font-family: "Inter", Helvetica;
+  --heading-inter-20-medium-font-size: 20px;
+  --heading-inter-20-medium-font-style: normal;
+  --heading-inter-20-medium-font-weight: 500;
+  --heading-inter-20-medium-letter-spacing: 0px;
+  --heading-inter-20-medium-line-height: 28px;
+  --heading-inter-28-medium-font-family: "Inter", Helvetica;
+  --heading-inter-28-medium-font-size: 28px;
+  --heading-inter-28-medium-font-style: normal;
+  --heading-inter-28-medium-font-weight: 500;
+  --heading-inter-28-medium-letter-spacing: 0px;
+  --heading-inter-28-medium-line-height: 36px;
+  --heading-inter-36-medium-font-family: "Inter", Helvetica;
+  --heading-inter-36-medium-font-size: 36px;
+  --heading-inter-36-medium-font-style: normal;
+  --heading-inter-36-medium-font-weight: 500;
+  --heading-inter-36-medium-letter-spacing: 0px;
+  --heading-inter-36-medium-line-height: 44px;
+  --info-border: rgba(192, 215, 248, 1);
+  --info-focus: rgba(192, 215, 248, 1);
+  --info-hover: rgba(45, 91, 156, 1);
+  --info-main: rgba(3, 110, 255, 1);
+  --info-pressed: rgba(33, 68, 117, 1);
+  --infosecondary: rgba(238, 244, 251, 1);
+  --primary-border: rgba(188, 176, 245, 1);
+  --primary-secondary: rgba(246, 244, 254, 1);
+  --primaryfocus: rgba(204, 195, 253, 1);
+  --primaryhover: rgba(53, 21, 217, 1);
+  --primarymain: rgba(90, 63, 224, 1);
+  --primarypressed: rgba(33, 15, 125, 1);
+  --shadow-2: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  --shadow-4: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  --shadow-6: 0px 6px 12px 0px rgba(0, 0, 0, 0.12);
+  --shadow-8: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+  --success-border: rgba(192, 248, 227, 1);
+  --success-focus: rgba(192, 248, 227, 1);
+  --success-hover: rgba(45, 156, 115, 1);
+  --success-main: rgba(16, 122, 84, 1);
+  --success-pressed: rgba(33, 117, 86, 1);
+  --successsecondary: rgba(238, 251, 246, 1);
+  --warning-border: rgba(248, 233, 192, 1);
+  --warning-focus: rgba(248, 233, 192, 1);
+  --warning-hover: rgba(156, 126, 45, 1);
+  --warning-main: rgba(255, 188, 0, 1);
+  --warning-pressed: rgba(117, 95, 33, 1);
+  --warningsecondary: rgba(251, 248, 238, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
